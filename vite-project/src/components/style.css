@@ -1,0 +1,51 @@
+
+
+.todo-item span{
+    flex: 1;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    color: #0077ff;
+}
+
+button{
+    padding: 5px 10px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #0077ff;
+    color: #fff; 
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+
+input{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-item{
+   
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.add{
+    margin-left: 10px;
+}
